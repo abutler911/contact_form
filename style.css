@@ -84,7 +84,7 @@ form .submit:hover {
 	cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	.contact-title {
 		margin-top: 80px;
 		margin-left: 10px;
