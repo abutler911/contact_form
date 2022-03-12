@@ -85,6 +85,10 @@ form .submit:hover {
 		font-size: 24px;
 		padding: 20px;
 	}
+	.contact-title p {
+		font-size: 14px;
+		padding: 10px;
+	}
 	form .submit {
 		width: 100%;
 		background: #e3e6e2;
