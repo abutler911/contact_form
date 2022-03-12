@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;700&family=Supermercado+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Poppins:wght@100;300;400;500;700&family=Shadows+Into+Light&family=Supermercado+One&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	font-weight: 300;
 }
 
@@ -19,7 +18,7 @@ body {
 .container {
 	max-width: 700px;
 	width: 100%;
-	background-image: url(background.jpg);
+	background: linear-gradient(#a9d8ac, #d9eae1);
 	padding: 25px 30px;
 	border-radius: 5px;
 }
@@ -30,11 +29,16 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 }
-
+.contact-title h1 {
+	padding: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 45px;
+}
 #anonymous {
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #ff0a0a;
+	color: #111;
+	padding: 20px;
 }
 
 .information h2 {
@@ -49,7 +53,7 @@ body {
 
 .form-control {
 	width: 100%;
-	background: lightgrey;
+	background: #c9f9c1;
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 5px;
@@ -67,10 +71,10 @@ body {
 }
 
 form .submit {
-	background: #e3e6e2;
+	background: #9fe39f;
 	border-color: #111;
 	border-radius: 5px;
-	color: #666666;
+	color: #111;
 	font-size: 20px;
 	letter-spacing: 1em;
 }
