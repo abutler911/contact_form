@@ -96,9 +96,8 @@ form .submit:hover {
 		letter-spacing: 3px;
 	}
 	.contact-title h1 {
-		font-size: 1.1em;
+		font-size: 1em;
 		line-height: 10px;
-		letter-spacing: 2px;
 		overflow-wrap: normal;
 	}
 
