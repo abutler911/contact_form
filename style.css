@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Indie Flower', cursive;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 body {
@@ -87,24 +87,25 @@ form .submit:hover {
 
 @media (max-width: 480px) {
 	.contact-title h1 {
-		font-size: 24px;
+		font-size: 38px;
 		padding: 20px;
 	}
-	.contact-title p {
+	contact .contact-title p {
 		font-size: 14px;
 		padding: 10px;
 	}
 	form .submit {
 		width: 100%;
-		background: #e3e6e2;
+		background: #9fe39f;
 		border-color: #111;
 		border-radius: 5px;
-		color: #666666;
+		color: #111;
+		font-weight: 600;
 		font-size: 16px;
 		letter-spacing: 1em;
 	}
 	#anonymous {
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 	.information h2 {
