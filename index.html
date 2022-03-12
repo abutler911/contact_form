@@ -22,11 +22,12 @@
         </div>
     
         <div class="contact-form">
-            <form name = "contact" id="contact-form" method="post" data-netlify="true">
+            <form name = "contact" id="contact-form" method="post" data-netlify-recaptcha="true" data-netlify="true">
                 <input name="name" type="text" class="form-control" placeholder="Your Name (optional)">
                 <br>
                 <textarea name="story" class="form-control" id="story-text" placeholder="Your Story" row="300" required></textarea>
                 <br>
+                <div data-netlify-recaptcha="true"></div>
                 <input type="submit" class="form-control submit" value="SEND STORY">
             </form>
         </div>
