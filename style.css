@@ -82,7 +82,7 @@ form .submit:hover {
 
 @media (max-width: 480px) {
 	.contact-title h1 {
-		font-size: 40px;
+		font-size: 24px;
 		padding: 20px;
 	}
 	form .submit {
@@ -93,5 +93,12 @@ form .submit:hover {
 		color: #666666;
 		font-size: 16px;
 		letter-spacing: 1em;
+	}
+	#anonymous {
+		font-size: 14px;
+	}
+
+	.information h2 {
+		font-size: 12px;
 	}
 }
