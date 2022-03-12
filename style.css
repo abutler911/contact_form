@@ -115,4 +115,13 @@ form .submit:hover {
 		color: #111;
 		margin-bottom: 16px;
 	}
+	form .submit {
+		background: #e3e6e2;
+		border-color: #111;
+		border-radius: 9px;
+		color: #666666;
+		font-size: 20px;
+		letter-spacing: 1em;
+		padding: 4px;
+	}
 }
