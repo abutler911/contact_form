@@ -80,11 +80,11 @@ form .submit:hover {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
 	.contact-title {
 		margin-top: 80px;
 		margin-left: 10px;
-		margin-bottom: 80px;
+		margin-bottom: 30px;
 		margin-right: 10px;
 		color: #111;
 		text-transform: uppercase;
@@ -121,7 +121,8 @@ form .submit:hover {
 		border-radius: 9px;
 		color: #666666;
 		font-size: 20px;
-		letter-spacing: 1em;
-		padding: 6px;
+		letter-spacing: 0.5em;
+		text-align: center;
+		/* padding: 6px; */
 	}
 }
