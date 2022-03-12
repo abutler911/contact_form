@@ -80,12 +80,12 @@ form .submit:hover {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
 	.contact-title {
 		margin-top: 80px;
-		margin-left: 20px;
+		margin-left: 10px;
 		margin-bottom: 80px;
-		margin-right: 20px;
+		margin-right: 10px;
 		color: #111;
 		text-transform: uppercase;
 		transition: all 3s ease-in-out;
