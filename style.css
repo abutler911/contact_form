@@ -82,7 +82,7 @@ form .submit:hover {
 
 @media (max-width: 480px) {
 	.contact-title h1 {
-		font-size: 20px;
+		font-size: 40px;
 		padding: 20px;
 	}
 	form .submit {
