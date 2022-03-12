@@ -28,11 +28,13 @@ background-image {
 	font-size: 32px;
 	line-height: 10px;
 	padding: 20px;
+	text-decoration: ;
 }
 
 #anonymous {
 	font-size: 20px;
 	text-transform: uppercase;
+	color: #ff0a0a;
 }
 
 .contact-title h2 {
@@ -51,19 +53,21 @@ form {
 	border: none;
 	outline: none;
 	border-bottom: 1px solid black;
-	color: #111;
+	color: #fff;
 	margin-bottom: 16px;
 }
 
 input {
 	height: 45px;
 	font-size: 20px;
+	color: #fff;
 }
 
 textarea {
 	height: 15em;
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
+	color: #fff;
 }
 form .submit {
 	background: #e3e6e2;
@@ -92,7 +96,7 @@ form .submit:hover {
 		width: 90%;
 	}
 	.contact-title h1 {
-		font-size: 20px;
+		font-size: 24px;
 		line-height: 10px;
 	}
 
@@ -112,7 +116,7 @@ form .submit:hover {
 		border: none;
 		outline: none;
 		border-bottom: 1px solid black;
-		color: #111;
+		color: #fff;
 		margin-bottom: 16px;
 	}
 	form .submit {
