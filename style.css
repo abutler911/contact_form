@@ -19,7 +19,7 @@ body {
 .container {
 	max-width: 700px;
 	width: 100%;
-	background: linear-gradient(#a9d8ac, #d9eae1);
+	background: #6497b1;
 	padding: 25px 30px;
 	border-radius: 5px;
 }
@@ -54,7 +54,8 @@ body {
 
 .form-control {
 	width: 100%;
-	background: #c9f9c1;
+	
+	background: #b3cde0;
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 5px;
@@ -72,7 +73,7 @@ body {
 }
 
 form .submit {
-	background: #9fe39f;
+	background: #005b96;
 	border-color: #111;
 	border-radius: 5px;
 	color: #111;
@@ -103,7 +104,7 @@ form .submit:hover {
 	}
 	form .submit {
 		width: 100%;
-		background: #9fe39f;
+		background: #005b96;
 		border-color: #111;
 		border-radius: 5px;
 		color: #111;
