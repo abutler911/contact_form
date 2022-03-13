@@ -1,75 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
-	/* background-image: url('background.jpg'); */
-	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.6)), url('background.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: #111;
-	font-family: 'Oswald', sans-serif;
+* {
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	box-sizing: border-box;
+	font-family: 'Oswald', cursive;
+	font-weight: 400;
 }
-background-image {
-	opacity: 0.5;
+
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: #111;
+}
+.container {
+	max-width: 700px;
+	width: 100%;
+	background: linear-gradient(#a9d8ac, #d9eae1);
+	padding: 25px 30px;
+	border-radius: 5px;
 }
 
 .contact-title {
 	margin-top: 100px;
 	color: #111;
 	text-transform: uppercase;
-	transition: all 3s ease-in-out;
+	text-align: center;
 }
-
 .contact-title h1 {
-	font-size: 32px;
-	line-height: 10px;
+	padding: 20px;
+	font-family: 'Oswald', cursive;
+	font-size: 45px;
+}
+#anonymous {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #111;
 	padding: 20px;
 }
 
-#anonymous {
-	font-size: 20px;
-	text-transform: uppercase;
-}
-
-.contact-title h2 {
+.information h2 {
+	text-align: center;
 	font-size: 16px;
-	text-transform: none;
+	margin-bottom: 20px;
 }
 
-form {
-	margin-top: 50px;
-	transition: all 4s ease-in-out;
+.contact-form {
+	width: 100%;
 }
 
 .form-control {
-	width: 600px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid black;
-	color: #111;
-	margin-bottom: 16px;
-}
-
-input {
+	width: 100%;
+	background: #c9f9c1;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
 	height: 45px;
 	font-size: 20px;
+	color: #111;
+	padding-left: 10px;
+	outline: none;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
 }
 
-textarea {
+#story-text {
 	height: 15em;
-	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
 }
+
 form .submit {
-	background: #e3e6e2;
+	background: #9fe39f;
 	border-color: #111;
-	border-radius: 9px;
-	color: #666666;
+	border-radius: 5px;
+	color: #111;
 	font-size: 20px;
 	letter-spacing: 1em;
 }
@@ -80,49 +86,36 @@ form .submit:hover {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 480px) {
 	.contact-title {
-		margin-top: 80px;
-		margin-left: 10px;
-		margin-bottom: 30px;
-		margin-right: 10px;
+		margin-top: 100px;
 		color: #111;
 		text-transform: uppercase;
-		transition: all 3s ease-in-out;
-		width: 90%;
+		text-align: center;
 	}
 	.contact-title h1 {
-		font-size: 20px;
-		line-height: 10px;
+		font-size: 38px;
+		padding: 20px;
 	}
-
-	#anonymous {
-		font-size: 18px;
-		text-transform: uppercase;
-	}
-
-	.contact-title h2 {
+	contact .contact-title p {
 		font-size: 14px;
-		text-transform: none;
-	}
-
-	.form-control {
-		width: 80%;
-		background: transparent;
-		border: none;
-		outline: none;
-		border-bottom: 1px solid black;
-		color: #111;
-		margin-bottom: 16px;
+		padding: 10px;
 	}
 	form .submit {
-		background: #e3e6e2;
+		width: 100%;
+		background: #9fe39f;
 		border-color: #111;
-		border-radius: 9px;
-		color: #666666;
-		font-size: 20px;
-		letter-spacing: 0.5em;
-		text-align: center;
-		/* padding: 6px; */
+		border-radius: 5px;
+		color: #111;
+		font-weight: 600;
+		font-size: 16px;
+		letter-spacing: 1em;
+	}
+	#anonymous {
+		font-size: 18px;
+	}
+
+	.information h2 {
+		font-size: 12px;
 	}
 }
