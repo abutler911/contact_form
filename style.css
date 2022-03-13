@@ -19,8 +19,8 @@ body {
 .container {
 	max-width: 700px;
 	width: 100%;
-	background: #6497b1;
-	padding: 25px 30px;
+	background:linear-gradient(#b3cde0,#6497b1);
+	padding: 15px 25px;
 	border-radius: 5px;
 }
 
@@ -82,8 +82,8 @@ form .submit {
 }
 
 form .submit:hover {
-	background-color: #666666;
-	color: white;
+	background-color: #b3cde0;
+	color: #111;
 	cursor: pointer;
 }
 
