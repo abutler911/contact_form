@@ -24,6 +24,9 @@ body {
 	border-radius: 5px;
 }
 
+.container p {
+	font-size: 14px;
+}
 .contact-title {
 	margin-top: 100px;
 	color: #111;
@@ -98,6 +101,13 @@ form .submit:hover {
 	text-align: center;
 	font-size: 10px;
 	letter-spacing: 2px;
+}
+
+.about-return {
+	text-align: left;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 @media (max-width: 480px) {
