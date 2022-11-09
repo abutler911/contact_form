@@ -26,7 +26,7 @@ body {
 	width: 100%;
 	padding: 15px 25px;
 	border-radius: 10px;
-	border: 1px solid white;
+	/* border: 1px solid white; */
 }
 
 .container p {
@@ -179,5 +179,10 @@ form .submit:hover {
 		font-size: 1.2em;
 		text-align: center;
 
+	}
+
+	.form-container {
+		background: transparent;
+		width: 100%;
 	}
 }
