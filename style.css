@@ -129,6 +129,7 @@ form .submit:hover {
 	text-align: center;
 	font-size: 1em;
 	color: #fff;
+	background: transparent;
 }
 
 .about-return {
