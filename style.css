@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', cursive;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 }
 
@@ -133,10 +133,25 @@ form .submit:hover {
 }
 
 .about-return {
-	text-align: left;
-	font-size: 18px;
+	text-align: center;
+	font-size: 0.7em;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.about-container {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 2em;
+}
+
+.about-title-row {
+	margin-bottom: 30px;
+}
+
+.about-container p {
+	font-size: 0.7em;
 }
 
 @media (max-width: 480px) {
